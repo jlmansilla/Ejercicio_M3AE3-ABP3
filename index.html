@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Neumórfica BEM</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="body">
+
+  <header class="header">
+    <div class="logo-neumorphic">
+      <svg width="80" height="80" viewBox="0 0 100 100" fill="none">
+      <path d="M40,10 C60,5 90,30 70,60 C50,90 10,80 20,40 C25,20 20,15 40,10 Z"
+          fill="#e0e0e0"
+          stroke="#d0d0d0"
+          stroke-width="1" />
+      </svg>
+    </div>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item nav__item--active">Inicio</li>
+        <li class="nav__item">Sobre mí</li>
+        <li class="nav__item">Proyectos</li>
+        <li class="nav__item">Contacto</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <article class="article">
+      <h1 class="article__title">Diseño neumórfico</h1>
+      <p class="article__text">  El diseño neumórfico es una tendencia visual que combina el minimalismo con efectos de profundidad sutiles, simulando superficies suaves y elevadas mediante sombras y luces. Este estilo busca crear interfaces modernas y elegantes, aportando una sensación táctil y realista a los elementos de la interfaz de usuario, sin perder la simplicidad y claridad en la presentación de la información.
+</p>
+      <p class="article__text">Es utilizado en paneles, dashboards, controles de elementos y en una gran variedad de componentes dentro de las aplicaciones.</p>
+      <img class="article__image" src="assets/images/crypto.jpg" alt="Imagen ejemplo">
+    </article>
+
+    <section class="contact">
+      <h2 class="contact__title">Formulario de Contacto</h2>
+      <form class="contact__form">
+        <input type="text" class="contact__input" placeholder="Tu nombre">
+        <input type="email" class="contact__input" placeholder="Tu correo electrónico">
+        <textarea class="contact__textarea" placeholder="Tu mensaje"></textarea>
+        <button type="submit" class="contact__button">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__info">&copy; 2025 Great Design </div>
+    <div class="footer__social">
+      <a href="#" class="footer__link footer__link--twitter">Twitter</a>
+      <a href="#" class="footer__link footer__link--facebook">Facebook</a>
+      <a href="#" class="footer__link footer__link--linkedin">LinkedIn</a>
+    </div>
+  </footer>
+
+</body>
+</html>

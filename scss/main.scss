@@ -1,0 +1,28 @@
+// This file imports all other SASS files to compile them into a single CSS file.
+
+@use 'abstracts/variables';
+@use 'abstracts/mixins';
+@use 'abstracts/functions';
+
+@use 'base/reset';
+@use 'base/typography';
+@use 'base/base';
+
+@use 'components/button';
+@use 'components/card';
+@use 'components/logo';
+
+@use 'layout/article';
+@use 'layout/contact';
+@use 'layout/main';
+@use 'layout/header';
+@use 'layout/footer';
+@use 'layout/navigation';
+@use 'layout/grid';
+
+@use 'pages/home';
+@use 'pages/about';
+
+@use 'themes/theme';
+
+@use 'vendors/bootstrap';
