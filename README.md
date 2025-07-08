@@ -1,4 +1,4 @@
-# Proyecto: Página Web con Metodología BEM
+# Proyecto: Página Web con Metodología SASS
 
 Este proyecto consiste en el desarrollo de una página web estática con un diseño. El objetivo principal es aplicar la metodología BEM (Block, Element, Modifier) para estructurar el código HTML y CSS de manera clara, mantenible y escalable.
 
